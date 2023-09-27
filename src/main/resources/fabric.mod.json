@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "v-api",
+  "version": "${version}",
+  "name": "V-Api",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/gmine/V-Api"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/v-api/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.pany.mods.vapi.V_Api"
+    ]
+  },
+  "mixins": [
+    "v-api.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
